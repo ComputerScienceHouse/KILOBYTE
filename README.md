@@ -43,16 +43,16 @@ The next iteration of Kilobyte introduces many structural and user interface imp
     - [ ] Show battery voltage and percentage on screen
     - [ ] Calculate RPM and velocity from hall effect sensor
     - [ ] Implement master software shutoff switch
-    - [ ] Make UI more user friendly
-    - [ ] Add safeguards for when communication to control unit is lost
+    - [x] Make UI more user friendly
+    - [x] Add safeguards for when communication to control unit is lost
     - [x] Implement UI LEDs
     - [x] 
 - Control Unit
   - [ ] Implement acceleration smoothing to reduce initial current and QOL
-  - [ ] Ensure that if any error occurs, motors always default to a safe state
+  - [x] Ensure that if any error occurs, motors always default to a safe state
 - Electronics
-  - [ ] Finalize mounting off all electronics and batteries
-    - [ ] Test mounting for strength and neatness
+  - [x] Finalize mounting of all electronics and batteries
+    - [x] Test mounting for strength and neatness
   - [x] Ensure all electronics are properly fused
   - [ ] Ground entire chassis?
   - [ ] Neatly route power+communication wiring to display unit
