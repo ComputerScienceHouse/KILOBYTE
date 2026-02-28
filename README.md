@@ -35,18 +35,17 @@ The next iteration of Kilobyte introduces many structural and user interface imp
     - [x] Attatch Anderson Powerpole connector
     - [x] Design and implement new mounting brackets
     - [ ] Test battery lifetime
+	- [ ] Test all automatic fuses
   - [x] Add 5V regulator to power display unit and control unit
 - Display Unit
   - [x] Implement new display unit housing
     - [x] Create new Arduino shield for power and all IO
-  - [ ] Upgrade and finalize firmware
+  - [ ] Upgrade & enhance firmware
     - [ ] Show battery voltage and percentage on screen
-    - [ ] Calculate RPM and velocity from hall effect sensor
-    - [ ] Implement master software shutoff switch
+	- [ ] Implement master software shutoff switch
     - [x] Make UI more user friendly
     - [x] Add safeguards for when communication to control unit is lost
     - [x] Implement UI LEDs
-    - [x] 
 - Control Unit
   - [ ] Implement acceleration smoothing to reduce initial current and QOL
   - [x] Ensure that if any error occurs, motors always default to a safe state
@@ -54,18 +53,31 @@ The next iteration of Kilobyte introduces many structural and user interface imp
   - [x] Finalize mounting of all electronics and batteries
     - [x] Test mounting for strength and neatness
   - [x] Ensure all electronics are properly fused
-  - [ ] Ground entire chassis?
   - [ ] Neatly route power+communication wiring to display unit
-    - [ ] Design custom cable harness/mounting atachments?
-  - [ ] Cut and paint the board electronics will be mounted on
+    - [ ] Design custom cable harness/mounting atachments
+  - [x] Cut a wooden board to mount electronics on
+    - [x] Design battery mounting solution
+- Cosmetics
+  - [x] Implement CSH colors in all 3d-printed parts
+
+# Next Up (Revision 4)
+- Display Unit 
+  - [ ] Calculate RPM and velocity from hall effect sensor
+- Control Panel 
+  - [ ] Add routing through control panel
+  - [ ] Add routing into handle
+  - [ ] Connect buttons directly to control panel
 - Safety
   - [ ] Detect human presence on chariot, do not allow operation if not detector
   - [ ] Add configurable speed limiter
   - [ ] Add a hardware battery disconnect
-  - [ ] Test all automatic fuses
+  - [ ] Grip tape / bed liner for chariot
 - Cosmetics
-  - [x] Implement CSH colors in all parts where possible
-  - [ ] Add custom accents and eye candy/decorations
-  - [ ] Decide on a primary color (CSH colors are accents)
-    - Should we replace the original blue plastic parts of the cart with custom 3d printed alternatives?
-
+  - [ ] clean and clear coat aluminum 
+  - [ ] Paint 
+  - [ ] Head Lights
+- Drive Train
+  - [ ] Chain lube
+- Control Unit
+  - [ ] Xbox controller 
+  - [ ] Demo mode
